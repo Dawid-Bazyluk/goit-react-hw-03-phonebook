@@ -8,7 +8,7 @@ export default class ContactForm extends Component {
   };
 
   handleChange = (e) => {
-    const { name, value } = e.currentTarget;
+    const { name, value } = e.currentTarget
     this.setState({ [name]: value });
   };
 
@@ -34,7 +34,7 @@ export default class ContactForm extends Component {
           value={name}
           onChange={this.handleChange}
         />
-        <label htmlFor="number">Numer telefonu</label>
+        <label htmlFor="number">Phone number</label>
         <input
           id="number"
           type="number"
