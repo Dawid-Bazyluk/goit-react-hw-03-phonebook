@@ -4,6 +4,8 @@ import ContactForm from "./ContactForm";
 import Filter from "./Filter";
 import ContactList from "./ContactList";
 
+// TEST
+
 export default class App extends Component {
   constructor() {
     super();
