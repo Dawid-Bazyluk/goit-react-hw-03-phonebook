@@ -34,7 +34,7 @@ export default class ContactForm extends Component {
           value={name}
           onChange={this.handleChange}
         />
-        <label htmlFor="number">Phone number</label>
+        <label htmlFor="number">Numer telefonu</label>
         <input
           id="number"
           type="number"
